@@ -46,8 +46,8 @@ the 4th game trying with Phaser 3
 				this.__sprite_h_scale = this.__gap/(this._height*64/600);`
         
         with this ratio:
-        `  this.__sprite = this.physics.add.sprite(0,0, "numbers")
-  .setScale(this.__sprite_w_scale, this.__sprite_h_scale);`
+        `  this.__sprite = this.physics.add.sprite(0,0, "numbers")`
+  `.setScale(this.__sprite_w_scale, this.__sprite_h_scale);`
   
   
   ## Some notes
@@ -65,10 +65,10 @@ the 4th game trying with Phaser 3
         // console.log(this.__tour);
       }
 console.log(_tmp_toggle.sign);
-//console.log(this.__tmp_tour[1].length);
-//console.log(this.__tmp_tour[2].length);
+//console.log(this.__tmp_tour[1].length);`
+`//console.log(this.__tmp_tour[2].length);`
 
-      this.__total_sec--;
+      `this.__total_sec--;
 
       this.checkRunOutTime(this.__total_sec);
 
@@ -81,15 +81,15 @@ console.log(_tmp_toggle.sign);
       this.__point_text = this.add.text(0,40,"Point:  " + this.__point, {font: "bold 40px Georgia", fill:"Yellow"});
 
       this.__sec_toggle = {key: true, sign: this.__sec_toggle.sign};
-  //    this.__tmp_tour[this.__tour].push(this.__tour);
+  //    this.__tmp_tour[this.__tour].push(this.__tour);`
 
-}, 1000);`
+`}, 1000);`
 
 Problem was that on the new screen1 renew the timer before 1000ms.
 
 solved by adding this: 
-`this.textReWrite_say++;
+`this.textReWrite_say++;`
 
-  if (_tmp_toggle.key === true && this.textReWrite_say >= 200){`
+  `if (_tmp_toggle.key === true && this.textReWrite_say >= 200){`
 
 ## [Demo](https://html5.ozguruygulama.com/static_number/index.html "Demo")
