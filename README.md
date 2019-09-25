@@ -65,8 +65,10 @@ the 4th game trying with Phaser 3
         // console.log(this.__tour);
       }
 console.log(_tmp_toggle.sign);`
-`//console.log(this.__tmp_tour[1].length);`
-`//console.log(this.__tmp_tour[2].length);`
+`
+//console.log(this.__tmp_tour[1].length);`
+`
+//console.log(this.__tmp_tour[2].length);`
 
       `this.__total_sec--;
 
