@@ -93,5 +93,8 @@ solved by adding this:
 `this.textReWrite_say++;`
 
   `if (_tmp_toggle.key === true && this.textReWrite_say >= 200){`
+  
+  ## [Facebook instant games](https://apps.facebook.com/398784267718147 "Facebook instant games")
+
 
 ## [Demo](https://html5.ozguruygulama.com/static_number/index.html "Demo")
